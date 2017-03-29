@@ -10,4 +10,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="rm77136.drawerandfragments.nac.fiap.com.br.navigationdrawerfragments_nac.CarroActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        >
+
+        <include android:id="@+id/toolbar" layout="@layout/toolbar_main"/>
+    </FrameLayout>
+
 </RelativeLayout>

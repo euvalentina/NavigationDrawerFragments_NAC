@@ -45,10 +45,10 @@ public class CarroActivity extends AppCompatActivity {
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if (item.getItemId() == R.id.mnImpala){
+                if (item.getItemId() == R.id.mnHonda){
 
                     Carro carro = carros.get(item.getItemId());
-                    Intent intent = new Intent(CarroActivity.this, ImpalaFragment.class);
+                    Intent intent = new Intent(CarroActivity.this, hondafragment.class);
                     Bundle b = new Bundle();
                     intent.putExtra("carro", carro);
                     //b.putSerializable("carro", carro);
@@ -56,26 +56,24 @@ public class CarroActivity extends AppCompatActivity {
 
 //                   Fragment a = new ImpalaFragment();
 //                   a.setArguments(b);
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ImpalaFragment()).addToBackStack(null).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new hondaragment()).addToBackStack(null).commit();
                     //startIntentSenderFromFragment(new ImpalaFragment(), R.id.fragment_container).addToBackStack(null).commit();
 
 
 
-                }else if(item.getItemId() == R.id.mnCadilac){
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CadilacFragment()).addToBackStack(null).commit();
-                }else if(item.getItemId() == R.id.mnMaverickGT){
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MaverickGTFragment()).addToBackStack(null).commit();
+                }else if(item.getItemId() == R.id.mnBmw){
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new bmwfragment()).addToBackStack(null).commit();
+                }else if(item.getItemId() == R.id.mnNissan){
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new nissanfragment()).addToBackStack(null).commit();
                 }else if(item.getItemId() == R.id.mnFusca){
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FuscaFragment()).addToBackStack(null).commit();
-                }else if(item.getItemId() == R.id.mnBrasilia){
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BrasiliaFragment()).addToBackStack(null).commit();
-                }else if(item.getItemId() == R.id.mnCorvette1974){
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new Covertte1974Fragment()).addToBackStack(null).commit();
-                }
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new fuscafragment()).addToBackStack(null).commit();
+                }else if(item.getItemId() == R.id.mnPassat){
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new passatfragment()).addToBackStack(null).commit();
+                }}
                 drawerLayout = (DrawerLayout) findViewById(R.id.activity_carro);
                 drawerLayout.closeDrawer(GravityCompat.START);
                 return false;
-            }
+            });
         });
 
     }
