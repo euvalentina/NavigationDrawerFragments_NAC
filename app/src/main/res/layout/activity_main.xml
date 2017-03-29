@@ -8,9 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/bg"
     android:orientation="vertical"
-    tools:context="br.com.fiap.a2tina_android_ex05_navigationdrawerfragments.MainActivity">
+    tools:context="rm77136.drawerandfragments.nac.fiap.com.br.navigationdrawerfragments_nac.MainActivity">
 
     <TextView
         android:layout_width="match_parent"

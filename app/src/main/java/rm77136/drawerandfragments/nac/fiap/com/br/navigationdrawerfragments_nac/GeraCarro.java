@@ -15,7 +15,7 @@ public class GeraCarro {
         carro.add(new Carro("Fusca", 1952, "", R.drawable.fusca));
         carro.add(new Carro("Nissan GTR", 1990, "", R.drawable.nissan));
         carro.add(new Carro("Honda NSX", 1992, "", R.drawable.honda));
-        carro.add(new Carro("Audi S3", 1999, R.drawable.audi1999));
+        carro.add(new Carro("Audi S3", 1999, "", R.drawable.audi1999));
         return carro;
 
 }

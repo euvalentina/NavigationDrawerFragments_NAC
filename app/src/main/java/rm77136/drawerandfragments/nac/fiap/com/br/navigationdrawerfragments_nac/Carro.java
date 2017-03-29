@@ -8,6 +8,9 @@ import java.io.Serializable;
 
 public class Carro {
 
+    public Carro(String fusca, int i, String s, int fusca1) {
+    }
+
     public class Carros implements Serializable {
         private String nome;
         private int ano;
