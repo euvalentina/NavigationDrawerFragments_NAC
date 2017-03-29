@@ -10,6 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
     tools:context="rm77136.drawerandfragments.nac.fiap.com.br.navigationdrawerfragments_nac.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
@@ -20,24 +21,19 @@
         android:textSize="80dp"
         android:text="@string/myapp"
         android:id="@+id/myapp"
-        android:textAlignment="center"
-        android:textColor="#fff"/>
+        android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/valentina"
-        android:textColor="#fff"
-        android:textAlignment="center"
+        android:textAlignment="center" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/rm"
-        android:textColor="#fff"
+        android:text="@string/rm" />
 
-        android:textAlignment="center"
-        android:textSize="20dp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"

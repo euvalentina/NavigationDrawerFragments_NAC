@@ -8,4 +8,13 @@
     <string name="rm">RM77136</string>
     <string name="valentina">Victoria Rodrigues</string>
     <string name="myapp">Nac</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Honda">Honda</string>
+    <string name="Nissan">Nissan</string>
+    <string name="bm">Bmw</string>
+    <string name="fusca">Fusca</string>
+    <string name="audi">Audi</string>
+    <string name="passat">Passat</string>
 </resources>

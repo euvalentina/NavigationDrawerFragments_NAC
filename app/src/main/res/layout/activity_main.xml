@@ -23,20 +23,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/meunome"
-        android:textColor="#fff"
-        android:paddingTop="@dimen/espacename"
-        android:textAlignment="center"
-        android:textSize="@dimen/fontname"/>
+        android:text="@string/valentina"
+        android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/meurm"
-        android:textColor="#fff"
+        android:text="@string/rm" />
 
-        android:textAlignment="center"
-        android:textSize="@dimen/fontname"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
